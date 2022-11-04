@@ -1,0 +1,122 @@
+@media only screen and (max-width: 1080px) {
+	body, .content, iframe {
+		min-width: 90%;
+		word-wrap: break-word;
+		width: auto;
+	}
+	.header-content {
+		min-width: 95%;
+		width: 95%
+	}
+	.header-content-cv {
+		min-width: 95%;
+		width: 95%
+	}
+}
+@media only screen and (max-width: 720px) {
+	html, div {
+		width: auto;
+	}
+	
+}
+body, html, iframe, embed {
+	background-color: lightgrey; font-family: "Verdana";
+    height: 50em;
+    width: 100%;
+	text-align: center;
+}
+h1, h2, h3, h4 {
+	font-family: "Verdana";
+	letter-spacing: 0.1em;
+	color: #121212;
+}
+.header-content {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 1.2em;
+	width: 60%;
+	height: 90vh;
+	overflow: visible;
+
+}
+.content {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 1.1em;
+	width: 100%;
+	max-width: 95%;
+	overflow: auto;
+
+}
+.content-connect {
+    display: grid;
+    grid-gap: 0em;
+    padding: 16px;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    overflow-x: hidden;
+    justify-content: center;
+}
+.navbar a {
+	float: left;
+	color: #121212;
+	text-align: center;
+	border-right: 0.1em solid #bbb;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-family: monospace;
+	display: block;
+}
+.navbar {
+    overflow: hidden;
+    width: 100%;
+}
+.imgstyle {
+    border-radius: 4px;
+    padding: 10px;
+    width: 4em;
+    height: 4em;
+}
+.imgstylefb {
+    padding: 5px;
+    width: 7em;
+    height: 4.5em;
+}
+.imgstylephone {
+    padding: 5px;
+    width: 18.75em;
+    height: 18.75em;
+}
+.imgvietnam {
+    padding: 5px;
+    width: 18.75em;
+    height: 18.75em;
+}
+.imgpoland {
+    padding: 5px;
+    width: 18.75em;
+    height: 18.75em;
+}
+.imgpoke {
+    padding: 5px;
+    width: 18.75em;
+    height: 18.75em;
+}
+.imgcake {
+    padding: 5px;
+    width: 18.75em;
+    height: 18.75em;
+}
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
